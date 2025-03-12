@@ -1,0 +1,27 @@
+body{
+    background-color:  rgb(196, 196, 196);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.janela{
+    background-color: rgb(216, 216, 216);
+    border:  1px solid black;
+    width: 600px;
+    height: 245px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#btn{
+    color: black;
+    background-color: orange;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#threshold{
+    width: 70px;
+    height: 30px;
+    font-size: 20px;
+}
