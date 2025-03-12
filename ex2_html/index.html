@@ -1,0 +1,336 @@
+    <!-- Aula 2 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Exercício de WEB</title>
+        <!-- A utilização de "meta" foi apresentada na aula 11 -->
+        <meta charset="utf-8">
+        <meta name="description" content="Institutos da USP">
+        <meta name="keywords" content="USP, ICMC, EESC">
+        <meta name="author" content="Matheus Bermudes Viana">
+        <meta http-equiv="refresh" content="10">
+    </head>
+
+    <!-- Meu CSS -->
+    <style>
+
+        /* Aula 08 */
+        /* Adicinonando borda à tabela e aos itens (th e td) */
+        table, th, td {
+            border: 1px solid #000;
+        }
+
+        /* Adicionando padding aos itens da tabela (th e td) */
+        th, td{
+            padding: 7px;
+        }
+
+        .nome{
+            background-color: lightcoral;
+        }
+        .codigo{
+            background-color: lightgreen;
+        }
+        .prof{
+            background-color: lightblue;
+        }
+        .creditos{
+            background-color: lightgoldenrodyellow;
+        }
+
+        /* Aula 09 */
+        div{
+            background-color: lightgrey;
+            padding: 20px;
+        }
+
+        span{
+            color: blue;
+            background-color: #fff;
+        }
+    </style>
+
+    <body>
+
+        <!-- Aula 3 -->
+        <h1>Título (visto na aula 3) </h1>
+        <h2>Subtítulo (visto na aula 3) </h2>
+        <h3>Cabeçalho menor</h3>
+        <h4>Cabeçalho menor ainda</h4>
+        <h5>Cabeçalho ainda menor</h5>
+        <h6>O menor cabeçalho</h6>
+
+        <!-- Aprendemos que <br> é utilizado para quebra de linha, quebrar a linha no editor (com ENTER) não influencia na disposição do site -->
+        <p>
+            Paragráfo de texto visto na aula 3, nessa aula foi apresentada a implementação de Títulos, parágrafos e quebra de linha.<br>
+            Nas próximas aulas iremos aprender sobre listas, imagens, tabelas, entre outros conteúdos sobre HTML. <br>
+            O HTML foi criado em 1991, por Tim Berners-Lee, no CERN (European Council for Nuclear Research) na suíça. <br>
+            Inicialmente o HTML foi projetado para interligar instituições de pesquisa próximas, e compartilhar documentos com facilidade. 
+            Em 1992, foi liberada a biblioteca de desenvolvimento WWW ( World Wide Web), uma rede de alcance mundial, 
+            que junto com o HTML proporcionou o uso em escala mundial da WEB.
+        </p>
+
+        <p>
+            O HTML é uma linguagem de marcação. Estas linguagens são constituídas de códigos que delimitam conteúdos específicos,
+            segundo uma sintaxe própria. O HTML tem códigos para criar paginas na web. Estes códigos que definem o tipo de letra, 
+            qual o tamanho, cor, espaçamento, e vários outros aspectos do site. No início era muito complicado aprender HTML, 
+            pois eram muitos comandos para fazer algo simples. A cada nova versão, o HTML fica mais fácil de utilizar,
+            e adquire mais funções. Atualmente qualquer pessoa pode acessar a internet a aprender a construir um site básico em questão de horas,
+            seguindo os passos de tutoriais e aprendendo as funções de cada código.
+        </p>
+
+        <!-- Aula 4 -->
+        <h1>Listas - Aula 04</h1>
+        <h2>Lista não ordenada</h2>
+        <ul>
+            <li> ICMC </li>
+                <ol>
+                    <li>Bloco 1</li>
+                    <li>Bloco 2</li>
+                </ol>
+            <li> EESC </li>
+            <li> IQSC </li>
+        </ul>
+
+        <h2>Lista ordenada (enumerada)</h2>
+        <ol> 
+            <li> ICMC </li>
+            <li> EESC </li>
+            <li> IQSC </li>
+        </ol>
+
+        <h2>Lista ordenada (com letras A-Z)</h2>
+        <ol type="A"> 
+            <li> ICMC </li>
+            <li> EESC </li>
+            <li> IQSC </li>
+        </ol>
+
+        <h2>Lista ordenada (com números romanos)</h2>
+        <ol type="I"> 
+            <li> ICMC </li>
+            <li> EESC </li>
+            <li> IQSC </li>
+            <li> IFSC </li>
+        </ol>
+
+        <h2>Lista descritiva</h2>
+        <dl>
+            <dt>ICMC</dt>
+                <dd>O Instituto de Ciências Matemáticas e de Computação da Universidade de São Paulo é
+                    um dos institutos pertencentes a Universidade de São Paulo
+            <dt>EESC </dt>
+                <dd>A Escola de Engenharia de São Carlos é uma unidade da Universidade de São Paulo
+            <dt>IQSC</dt>
+                <dd>O Instituto de Química de São Carlos da Universidade de São Paulo é uma unidade da Universidade de São Paulo</dd>
+        </dl>
+
+        <!-- Aula 05 -->
+        <h1>Trabalhando com imagens - Aula 5</h1>
+        <img src="img/bttf.png" title="De volta para o futuro" alt="De volta para o futuro - Alternativo" width="400" >
+        
+        
+        <!-- Aula 06 -->
+        <h1>Trabalhando com Iframe - Aula 06</h1>
+        
+        <iframe width="500" height="500" src="listas.html"></iframe>
+
+        <!-- Aula 07 -->
+        <h1>Trabalhando com links - Aula 07</h1>
+        <a href="listas.html" target="_blank">Link interno</a> <br>
+        <a href="https://www.icmc.usp.br/" target="_blank">Link externo</a>
+        
+        <!-- Aula 08 -->
+        <h1>Trabalhando com tabelas - aula 08</h1><br>
+        
+        <table>
+            <caption>Lista de Disciplinas</caption>
+            
+            <colgroup>
+                <col class="nome">
+                <col class="codigo">
+                <col class="prof">
+                <col class="creditos">
+            </colgroup>
+            
+            <thead>
+                <tr>
+            <th>Nome:</th>
+            <th>Código da Disciplina: </th>
+            <th>Professor(a): </th>
+            <th >Quantidade de créditos: </th>
+        </tr>
+    </thead>
+
+
+    <tbody>
+        <tr>
+            <td>Intro WEB</td>
+            <td>SCC-0219</td>
+            <td>Dilvan</td>
+            
+            <!-- rowspan serve para definir o tamanho da linha (nesse caso, irá ocupar 2 linhas) -->
+            <td rowspan="2">4</td>
+            
+        </tr>
+        
+        <tr>
+            <td>Redes</td>
+            <td>SSC-0142</td>
+            <td>Kalinka</td>
+        </tr>
+    </tbody>
+
+            <tfoot>
+                <tr>
+                    <!-- colspan serve para definir o tamanho da coluna (nesse caso, irá ocupar 4 colunas) -->
+                    <td colspan="4">Total: 2</td>   
+                </tr>
+            </tfoot>
+            
+        </table>
+        
+        <!-- Aula 09 -->
+        <h1>Trabalhando com div e span - Aula 09</h1>
+        
+        <div>
+            <h1>Aprendendo a usar Div</h1>
+            <p>
+                As tags <span>div</span> e <span>span</span> são elementos usados ​​para definir partes de um documento,
+                de forma que sejam identificáveis ​​quando uma classificação única for necessária.
+                O elemento de divisão HTML <span>div</span> é um container genérico para conteúdo de fluxo, 
+                que de certa forma não representa nada. Ele pode ser utilizado para agrupar elementos para fins de estilos (usando class ou id),
+                ou porque eles compartilham valores de atributos, como lang. Ele deve ser utilizado somente quando não tiver outro elemento de semântica
+            </p>
+        </div>
+        
+        <!-- Aula 10 -->
+        <h1>Trabalhando com comentários - Aula 10</h1>
+        
+        <!-- A seguir a minha div que contém a foto de um jogo de computador com um fundo cinza-->
+        <div>
+            <img src="https://bk.ibxk.com.br/2015/08/06/06003044541765.jpg?ims=328x218">
+        </div>
+        
+        <!-- Aula 11 -->
+        <h1>Trabalhando com meta - Aula 11</h1>
+        <p>Utilizei meta no head da página</p>
+        
+        <!-- Aula 15 -->
+        <h1>Trabalhando com formulários - Aula 15</h1>
+        
+        <!-- O método GET irá revelar na URL o usuário e a senha escolhida, após clicar em enviar -->
+        <form action="cadastro.php" method="GET">
+            
+            <fieldset>
+                <legend>Informações de Cadastro</legend>
+                Usuário: <br>
+                <input type="text" name="user"><br>
+                Senha:<br>
+                <input type="password" name="senha"><br>
+                <input type="submit" name="btn-enviar" value="Enviar">
+            </fieldset>
+            
+            <!-- Aula 16 em Diante -->
+            <h1>Formulários com mais recursos - Aula 16 em diante</h1>
+            
+            <form id="form-cadastro" action="cadastro.php" method="POST" enctype="application/x-www.form-urlencoded" name="formulario-cadastro">
+                
+            <fieldset>
+            <legend>Informações de Cadastro</legend>
+            
+            Nome: <br>
+            <input type="text" name="user" autocomplete="off"  placeholder="O nome que será exibido" required autofocus maxlength="15"><br>
+            
+            Senha:<br>
+            <input type="password" name="senha"  placeholder="Senha para login" autocomplete="off"><br>
+            
+            Email:<br>
+            <input type="email" name="email" autocomplete="on" placeholder="seuemail@usp.br" required><br>
+            <input type="submit" name="cadastrar" formenctype="application/x-www-form-urlencoded" formmethod="GET" formaction="cadastrar.php" value="Cadastrar">
+            <input type="submit" name="enviar-por-email" formenctype="application/x-www-form-urlençoded" formmethod="POST" formaction="enviar-email.php" value="Enviar por email" formnovalidate>
+
+
+            Quais disciplinas você cursa?<br>
+            <input type="checkbox" name="materia" value="web"> Desenvolvimento Web <br>
+            <input type="checkbox" name="materia" value="redes"> Redes de Computadores<br>
+            <input type="checkbox" name="materia" value="estoc"> Processos Estocásticos<br>
+            <input type="checkbox" name="materia" value="calc"> Cálculo Numérico<br><br>
+
+            Qual sua disciplina favorita?<br>
+            <input type="radio" name="materia" value="web"> Desenvolvimento Web <br>
+            <input type="radio" name="materia" value="redes"> Redes de Computadores<br>
+            <input type="radio" name="materia" value="estoc"> Processos Estocásticos<br>
+            <input type="radio" name="materia" value="calc"> Cálculo Numérico<br><br>
+
+            Em quantos créditos você se matriculou? <br>
+            <input type="number" name="quantidade" min="0" max="16" step="1"><br><br>
+            
+            O quão animado você está para as disciplinas matriculadas?<br>
+            <input type="range" name="quantidade"> <br>
+                                            
+            Qual deve ser a cor da camiseta do curso?<br>
+            <input type="color" name="cor"><br>
+
+            Sua foto de perfil:<br><br>
+            <input type="file" name="imagem"><br><br>
+
+            Seu LinkedIn:<br>
+            <input type="url" name="site" placeholder="O link do seu LinkedIn"><br><br>
+
+            Celular de Contato:<br>
+            <input type="tel" name="celular"><br><br>
+            
+            Data de Nascimento:<br>
+            <input type="date" name="data" min="1900-12-31" max="2002-12-31"><br><br>
+        
+            Qual o melhor horário para monitoria?<br>
+            <input type="time" name="hora"><br><br>
+        
+            Qual a melhor semana para a realização da Semcomp (Semana da Computação)?<br>
+            <input type="week" name="semana"><br><br>
+
+            Quando você pretende se formar?<br>
+            <input type="month" name="mes-ano"><br><br>
+        
+            Qual o melhor dia e horário para a festa de formatura?<br>                                                            
+            <input type="datetime-local" name="data-e-hora"><br><br>
+
+            Quais as suas expectativas para este semestre?<br>
+            <textarea name="mensagem" rows="5" cols="30" spellcheck="false"></textarea><br><br>
+
+            Como você ingressou neste curso?<br>
+            <select name="ingresso">
+                <optgroup label="Sisu">
+                    <option value="sisureg">Chamada Regular</option>
+                    <option value="sisulista">Lista de Espera</option>
+                </optgroup>
+
+                <optgroup label="Fuvest">
+                    <option value="fuvreg">Chamada Regular</option>
+                    <option value="fuvlista">Lista de Espera</option>
+                </optgroup>
+                
+                <optgroup label="Transferência">
+                    <option value="intern">Transferência Interna</option>
+                    <option value="extern">Transferência Externa</option>
+                </optgroup>
+            </select><br><br>
+
+            Qual seu ano de ingresso?<br>
+            <input name="ano" list="lista-anos">
+                <datalist id="lista-anos">
+                    <option value="2016">
+                    <option value="2017">
+                    <option value="2018">
+                    <option value="2019">
+                    <option value="2020">
+                    <option value="2021">
+                    <option value="2022">
+                </datalist><br><br>
+            <input type="submit" name="btn-enviar" value="Enviar">
+
+            </fieldset>
+        </form>
+    </body>
+</html>
