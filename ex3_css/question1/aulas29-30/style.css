@@ -1,0 +1,18 @@
+/* Aula 29 */
+
+*{margin:e; padding: 0;}
+nav {width: 100vw; height: 80px; background-color: green;}
+.banner {width: 100vw; height: calc(100vh - 80px); 
+    background-image: url('castle.jpeg'); background-size: cover;}
+
+
+/* Aula 30 */
+#aula30{
+    padding: 10px;
+    margin: 40px 0 0 60px; filter: invert(100%); 
+}
+
+#aula30-2{
+    padding: 10px;
+    margin: 40px 0 0 60px; filter: sepia(100%); 
+}
