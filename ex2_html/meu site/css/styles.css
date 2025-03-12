@@ -1,0 +1,162 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    color: #66BFBF;
+    font-size: 5.625rem;
+    /* line-height: 2; */
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    
+}
+
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+}
+
+p{
+    line-height: 2;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+hr{
+    border: dotted #a2c8ca 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+    /* margin-top: 200px; */
+}
+
+.hr2{
+    border: dotted #a2c8ca 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 200px auto 0;
+    /* margin-top: 200px; */
+}
+
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+.top-container{
+    /* position: absolute; */
+    /* left: 50px; */
+    background-color: #E4F9F5;
+    /* background-color: rgb(191, 229, 253); */
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    margin: 100px 0;
+
+    /* background-color: rgb(39, 47, 46); */
+
+   
+}
+
+.profile{
+  
+}
+.bottom-container{
+    background-color: #66BFBF;
+
+    /* background-color: rgb(39, 47, 46); */
+
+    padding: 50px 0 20px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+
+.pro{
+    text-decoration: underline;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.contact-me{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+    /* margin-left: 50px; */
+}
+
+.gife{
+    float: left;
+    margin-right: 30px;
+}
+
+.gife2{
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+    -webkit-border-radius: 39;
+    -moz-border-radius: 39;
+    border-radius: 39px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #1292e8;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #78cbff;
+    text-decoration: none;
+  }
+

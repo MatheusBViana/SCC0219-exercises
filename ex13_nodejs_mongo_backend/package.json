@@ -1,0 +1,33 @@
+{
+  "name": "scc0219_-_artezaria",
+  "version": "1.0.0",
+  "description": "ProjetoArtezaria",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CerqueiraMatheus/SCC0219-artezaria.git"
+  },
+  "keywords": [
+    "mongoDB",
+    "express"
+  ],
+  "author": "Matheus Ventura de Sousa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CerqueiraMatheus/SCC0219-artezaria/issues"
+  },
+  "homepage": "https://github.com/CerqueiraMatheus/SCC0219-artezaria#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
