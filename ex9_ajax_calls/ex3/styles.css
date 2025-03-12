@@ -1,0 +1,35 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.janela, #colorbox{
+    border: 2px solid black;
+}
+.janela{
+    background-color: rgb(216, 216, 216);
+    width: 450px;
+    height: 545px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+#colorbox{
+    height: 350px;
+    width: 350px;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+#cor{
+    width: 60px;
+}
+
+.btn{
+    color: black;
+    background-color: orange;
+}
+.corNome{
+    display: flex;
+    /* width: 70%; */
+    margin: 0 20px;
+}

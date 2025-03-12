@@ -1,0 +1,143 @@
+body{
+    /* background-color: rgb(77, 120, 147); */
+    /* background-image: url("wallpaper.jpg"); */
+    background-image: url("images/fundo.png");
+
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    /* background-size: cover; */
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilizando todos os elementos que possuem link */
+a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    transition: transform .2s;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+.profile{
+    padding: 10px;
+    background-color: rgb(74, 115, 141);
+
+    color: white;
+    width: 45%;
+    margin: 0 auto 15px;
+    border-radius: 20px;
+}
+
+.profile p{
+    font-size: 20px;
+}
+/* Border-Radius para tornar minha foto de perfil redonda */
+.img-circle{
+    width: 210px;
+    height: 210px;
+    border-radius: 100%;
+    border: 5px solid rgb(77, 120, 147);
+    box-shadow: inset 0px 0px 0px 10px rgb(77, 120, 147);
+}
+
+.redes{
+    padding: 10px;
+    background-color: rgb(74, 115, 141);
+    color: white;    width: 45%;
+    height: 150px;
+    margin: 0 auto 15px;
+    border-radius: 20px;
+
+}
+
+li{
+    display: inline-block;
+    margin: 25px 70px 0 0;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    transition: scale 0.2s;
+}
+
+/* Destacar as redes sociais quando eu colocar o mouse por cima */
+li:hover{
+    transform: scale(1.2);
+    font-weight: bold;
+}
+
+.logorede{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px 0;
+    display: flex;
+    filter: brightness(100);
+}
+
+.netw{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.logofilme{
+    margin-top: 70px;
+    height: 224px;
+    width: 163px;
+}
+
+h3{
+    margin-top: 0px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.movies h2{
+    font-size: 35px;
+}
+
+.movies p{
+    font-size: 20px;
+}
+
+
+.movies{
+    padding: 10px;
+    background-color: rgb(74, 115, 141);
+    color: white;    width: 45%;
+    margin: 0 auto 15px;
+    border-radius: 20px;
+
+}
+
+#filmes{
+    background-color: rgb(74, 115, 141);
+    color: white;    border-collapse: separate; 
+    border-spacing: 10 2em;
+}
+
+.interesses{
+    padding: 10px;
+    background-color: rgb(74, 115, 141);
+    color: white;    width: 45%;
+    margin: 0 auto 15px;
+    font-size: 22px;
+    border-radius: 20px;
+
+}
+
+.interesses li{
+    transition: transform .2s;
+}
+
+/* Destacar meus hobbies ao passar o mouse por cima */
+.interesses li:hover{
+    transform: scale(1.2);
+    
+}
+.interesses h2{
+    font-size: 35px;
+}
